@@ -1,0 +1,23 @@
+{
+  "name": "passbaseapi",
+  "version": "1.0.0",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaushittejwani/passbase-Api.git"
+  },
+  "author": "kaushit tejwani",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaushittejwani/passbase-Api/issues"
+  },
+  "homepage": "https://github.com/kaushittejwani/passbase-Api#readme",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5"
+  }
+}

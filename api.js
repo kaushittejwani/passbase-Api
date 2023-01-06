@@ -27,10 +27,10 @@ app.post('/passbase-webhooks',(req,res)=>{
 })
 app.get('/passbase-webhooks',(req,res)=>{
     
- setInterval(() => {
+
     res.status(200);
     res.send(data);
- },1000);
+
    
 })
 app.listen(port,()=>{

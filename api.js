@@ -25,11 +25,11 @@ app.post('/passbase-webhooks',(req,res)=>{
     }
     
 })
-app.get('/passbase-webhooks',(req,res)=>{
+app.get('/passbase-webhooks',async (req,res)=>{
     
-
+const result= await data;
     res.status(200);
-    res.send(data);
+    res.send(result);
 
    
 })

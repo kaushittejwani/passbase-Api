@@ -31,5 +31,6 @@ const result= await data;
     res.send(result);
 })
 app.listen(port,()=>{
+     
     console.log(`Listening on port ${port}`);
 })

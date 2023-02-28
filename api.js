@@ -12,6 +12,7 @@ app.post('/passbase-webhooks',(req,res)=>{
      data=req.body
     res.status(200);
     console.log(data);
+     
   switch(data.events){
         case"VERIFICATION_COMPLETED":
         console.log("VERIFICATION_PENDING")

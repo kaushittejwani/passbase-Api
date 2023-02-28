@@ -21,9 +21,8 @@ app.post('/passbase-webhooks',(req,res)=>{
         break;
         default:
             console.log('VERIFICATION_PENDING')
-    }
-    
-})
+     }
+    })
 app.get('/passbase-webhooks',async (req,res)=>{
     
 const result= await data;

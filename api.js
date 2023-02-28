@@ -12,8 +12,7 @@ app.post('/passbase-webhooks',(req,res)=>{
      data=req.body
     res.status(200);
     console.log(data);
-     
-  switch(data.events){
+     switch(data.events){
         case"VERIFICATION_COMPLETED":
         console.log("VERIFICATION_PENDING")
         break;
@@ -30,8 +29,6 @@ app.get('/passbase-webhooks',async (req,res)=>{
 const result= await data;
     res.status(200);
     res.send(result);
-
-   
 })
 app.listen(port,()=>{
     console.log(`Listening on port ${port}`);

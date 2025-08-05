@@ -28,7 +28,7 @@ app.get('/passbase-webhooks',async (req,res)=>{
     
 const result= await data;
     res.status(200);
-    res.send("hy bro);
+    res.send("hy bro");
 })
 app.listen(port,()=>{
      
